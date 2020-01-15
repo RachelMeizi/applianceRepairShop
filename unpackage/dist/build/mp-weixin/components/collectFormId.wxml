@@ -1,0 +1,1 @@
+<view><form class="layout" report-submit="true" data-event-opts="{{[['submit',[['formSubmit',['$event']]]]]}}" bindsubmit="__e"><button class="button" form-type="submit" hover-class="none"><view class="fixed"><slot></slot></view></button></form></view>

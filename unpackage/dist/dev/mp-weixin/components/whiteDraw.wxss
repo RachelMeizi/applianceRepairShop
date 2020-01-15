@@ -1,0 +1,59 @@
+
+.jdraw {
+	background-color: #fff;
+	position: relative;
+}
+.change {
+	height: 0;
+	overflow: hidden;
+}
+.jdraw .tool {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-content: center;
+	        align-content: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 20rpx;
+}
+.jdraw .tool image {
+	width: 60rpx;
+	height: 60rpx;
+}
+.jdraw .selected {
+	background-color: #f7efe0;
+}
+.jdraw .tinct-list {
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 20rpx;
+	/* border: 1upx solid #F2F2F2; */
+}
+.jdraw .tinct-item {
+	display: inline-block;
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 100%;
+	margin: 0 20rpx;
+}
+.jdraw .tinct-curr::after {
+	content: '';
+	display: block;
+	border: 1px solid #864242;
+	width: 44rpx;
+	height: 44rpx;
+	border-radius: 100%;
+	margin-top: -4rpx;
+	margin-left: -4rpx;
+}
+.canvas {
+	height: 463px;
+	width: 750rpx;
+	overflow: hidden;
+	/* background: #f2f2f2; */
+}
+
+
+

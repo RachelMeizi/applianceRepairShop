@@ -1,0 +1,1 @@
+<view><view class="topTabBar" style="{{'position:'+(headerPosition)+';'+('top:'+(headerTop)+';')}}"><block wx:for="{{tabList}}" wx:for-item="grid" wx:for-index="tbIndex" wx:key="tbIndex"><view data-event-opts="{{[['tap',[['showType',[tbIndex]]]]]}}" class="grid" bindtap="__e"><view class="{{['text',tbIndex==tabbarIndex?'on':'']}}">{{grid}}</view></view></block></view></view>

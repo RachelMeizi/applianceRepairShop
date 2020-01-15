@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 页面左右间距 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 按钮颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 文章场景相关 */
+.modal-view {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  visibility: hidden;
+  opacity: 0;
+}
+.modal-view .modal-container {
+    background: #fff;
+    -webkit-transition: -webkit-transform .2s linear;
+    transition: -webkit-transform .2s linear;
+    transition: transform .2s linear;
+    transition: transform .2s linear, -webkit-transform .2s linear;
+    position: relative;
+}
+.modal-view .modal-container .backRight-view {
+      background: #23252f;
+}
+.modal-view .scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.modal-view .modal-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+    color: #030303;
+}
+.modal-view .modal-col {
+    -webkit-flex-basis: 0;
+            flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+}
+.modal-view .modal-border-top::after,
+  .modal-view .modal-border-bottom::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    -webkit-transform: scaleY(0.36) translateY(-1px);
+            transform: scaleY(0.36) translateY(-1px);
+}
+.modal-view .modal-border-bottom::after {
+    top: 100%;
+    left: 15px;
+    right: 15px;
+}
+.modal-view .modal-btn {
+    background: #FE5430;
+    color: #fff;
+}
+.modal-view .modal-submit {
+    top: 0;
+    height: 36px;
+    line-height: 36px;
+}
+.modal-view .modal-submit .modal-cancel,
+    .modal-view .modal-submit .modal-confirm {
+      padding: 0 15px;
+}
+.modal-view .modal-submit .modal-confirm {
+      color: #007aff;
+}
+.modal-view.show {
+  opacity: 1;
+  visibility: visible;
+}
+.modal-view.show .modal-container {
+    -webkit-transform: translate3d(0, 0, 0) !important;
+            transform: translate3d(0, 0, 0) !important;
+}
+.modal-view-top {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.modal-view-top .modal-container {
+    width: 100%;
+    height: 60vh;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+}
+.modal-view-right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.modal-view-right .modal-container {
+    width: 70%;
+    height: 100vh;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+}
+.modal-view-bottom {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.modal-view-bottom .modal-container {
+    width: 100%;
+    min-height: 36vh;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+}
+.modal-view-left {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.modal-view-left .modal-container {
+    width: 70%;
+    height: 100vh;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+}
+

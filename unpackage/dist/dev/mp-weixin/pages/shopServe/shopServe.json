@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "服务类型",
+  "usingComponents": {
+    "right-popup": "/components/x-popup/x-popup",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item",
+    "helang-checkbox": "/components/helang-checkbox/helang-checkbox"
+  }
+}

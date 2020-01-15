@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "基本信息",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

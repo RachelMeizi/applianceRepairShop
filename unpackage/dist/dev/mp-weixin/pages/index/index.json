@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "home-page": "/pages/tabbar/index/index",
+    "page-two": "/pages/tabbar/home/home",
+    "page-three": "/pages/tabbar/master/master",
+    "page-four": "/pages/shopMall/category/category",
+    "footer-nav": "/components/footer/footer_nav"
+  }
+}

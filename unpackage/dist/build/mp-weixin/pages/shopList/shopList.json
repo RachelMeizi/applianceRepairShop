@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商家列表",
+  "usingComponents": {
+    "my-issue": "/components/myIssue",
+    "uni-evaluate": "/components/xiujun-evaluate/uni-evaluate",
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+  }
+}

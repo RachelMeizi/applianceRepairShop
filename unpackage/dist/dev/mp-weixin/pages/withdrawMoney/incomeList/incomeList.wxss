@@ -1,0 +1,61 @@
+
+.listarr {
+	width: 100%;
+	border-bottom: 1rpx solid #f2f2f2;
+}
+.list {
+	width: 95%;
+	margin: 0 auto;
+}
+.time {
+	color: #ccc;
+	font-size: 25rpx;
+	float: right;
+	/* margin-right: 10rpx; */
+	margin: 5rpx;
+}
+.subjectList {
+	width: 98%;
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #f2f2f2;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: baseline;
+	-webkit-align-items: baseline;
+	        align-items: baseline;
+	font-size: 30rpx;
+}
+.subjectList image {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 10rpx;
+}
+.tips {
+	width: 100%;
+	/* height: 100rpx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column;
+	        flex-flow: column;
+	font-size: 30rpx;
+	font-weight: 30rpx;
+}
+.tips image {
+	width: 300rpx;
+	height: 250rpx;
+	margin: 12rpx;
+}
+

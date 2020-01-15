@@ -1,0 +1,1 @@
+<view class="{{['jdraw',(!onCanvas)?'change':'']}}"><canvas class="canvas" canvas-id="palette" disable-scroll="{{true}}" data-event-opts="{{[['touchstart',[['touchstart',['$event']]]],['touchmove',[['touchMove',['$event']]]],['touchend',[['touchEnd',['$event']]]]]}}" bindtouchstart="__e" bindtouchmove="__e" bindtouchend="__e"></canvas></view>

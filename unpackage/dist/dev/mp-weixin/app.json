@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/loginBase/wx_login/wx_login",
+    "pages/index/index",
+    "pages/shopMall/confimOrder/confimOrder",
+    "pages/loginBase/chooseIdentity/chooseIdentity",
+    "pages/loginBase/logins",
+    "pages/tabbar/index/index",
+    "pages/loginBase/writeUserInfo/writeUserInfo",
+    "pages/withdrawMoney/cash",
+    "pages/withdrawMoney/incomeList/incomeList",
+    "pages/shopMall/category/category",
+    "pages/loginBase/form",
+    "pages/tabbar/home/home",
+    "pages/tabbar/master/master",
+    "pages/publish/publish",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/detail/detail",
+    "pages/shopServe/shopServe",
+    "pages/shopList/shopList",
+    "pages/shopDetail/shopDetail",
+    "pages/orderList/orderList",
+    "pages/costList/costList",
+    "pages/shopMall/goodsList/goodsList",
+    "pages/shopMall/goodsDetail/goodsDetail",
+    "pages/shopMall/shopCar/shopCar",
+    "pages/shopMall/orderList/orderList",
+    "pages/shopMall/orderDetail/orderDetail",
+    "pages/serveList/serveList"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F97C1A",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap53.json"
+}

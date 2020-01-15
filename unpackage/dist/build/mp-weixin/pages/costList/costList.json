@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商家入驻费用列表",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

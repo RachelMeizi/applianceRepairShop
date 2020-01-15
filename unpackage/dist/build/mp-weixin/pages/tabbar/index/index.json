@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "flixed-add": "/components/xiaosikaifa-flixedadd/xiaosikaifa-flixedadd",
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item"
+  }
+}

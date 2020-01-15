@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "任务列表",
+  "usingComponents": {
+    "collect-form-id": "/components/collectFormId",
+    "empty": "/components/empty"
+  }
+}

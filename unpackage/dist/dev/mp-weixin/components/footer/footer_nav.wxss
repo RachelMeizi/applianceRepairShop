@@ -1,0 +1,34 @@
+
+.place.data-v-21ad1325 {
+	height: 120rpx;
+}
+.footer.data-v-21ad1325 {
+	height: 110rpx;
+	position: fixed;
+	bottom: 5rpx;
+	left: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	color: #000;
+}
+.footer_item.data-v-21ad1325 {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	font-size: 28rpx;
+	height: 120rpx;
+	padding: 10rpx 0;
+}
+.footer_item image.data-v-21ad1325 {
+	width: 60rpx;
+	height: 60rpx;
+}
+.footer_item.big_item.data-v-21ad1325 {
+	position: relative;
+	top: -40rpx;
+}
+.footer_item.big_item image.data-v-21ad1325 {
+	width: 100rpx;
+	height: 100rpx;
+}
+
